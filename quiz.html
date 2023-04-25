@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Adaptive Gaming Controllers Quiz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/quiz_style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <header class="custom-header">
+            <img src="logo.png" alt="Dark blue circle that says Adaptive Gaming Controllers in decorative font" style="width: 100px; height: auto;">
+            <h1>Quiz</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="setup.html">Set-up of Controllers</a></li>
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form id="quiz-form">
+                <fieldset>
+                    <legend>1. What type of games do you enjoy playing?</legend>
+                    <input type="radio" name="game-type" value="action" id="action" class="option">
+                    <label for="action">Action</label>
+                    <br>
+                    <input type="radio" name="game-type" value="rpg" id="rpg" class="option">
+                    <label for="rpg">RPG</label>
+                    <br>
+                    <input type="radio" name="game-type" value="sports" id="sports" class="option">
+                    <label for="sports">Sports</label>
+                    <br>
+                    <input type="radio" name="game-type" value="strategy" id="strategy" class="option">
+                    <label for="strategy">Strategy</label>
+                </fieldset>
+                <fieldset>
+                    <legend>2. What platform do you play games on?</legend>
+                    <input type="radio" name="platform" value="pc" id="pc" class="option">
+                    <label for="pc">PC</label>
+                    <br>
+                    <input type="radio" name="platform" value="xbox" id="xbox" class="option">
+                    <label for="xbox">Xbox</label>
+                    <br>
+                    <input type="radio" name="platform" value="playstation" id="playstation" class="option">
+                    <label for="playstation">PlayStation</label>
+                    <br>
+                    <input type="radio" name="platform" value="nintendo" id="nintendo" class="option">
+                    <label for="nintendo">Nintendo</label>
+                </fieldset>
+                <fieldset>
+                    <legend>3. What type of adaptive controller do you prefer?</legend>
+                    <input type="radio" name="controller-type" value="joystick" id="joystick" class="option">
+                    <label for="joystick">Joystick</label>
+                    <br>
+                    <input type="radio" name="controller-type" value="gamepad" id="gamepad" class="option">
+                    <label for="gamepad">Gamepad</label>
+                    <br>
+                    <input type="radio" name="controller-type" value="mouse" id="mouse" class="option">
+                    <label for="mouse">Mouse</label>
+                </fieldset>
+                <button type="submit" id="submit-btn">Submit</button>
+            </form>
+            <div id="recommendations"></div>
+        </main>
+    </body>
+    <script src="js/quiz.js"></script>
+</html>

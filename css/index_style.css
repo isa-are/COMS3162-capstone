@@ -1,0 +1,136 @@
+/* Set up the primary and secondary colors for the website */
+:root {
+    --primary-color: #006DDA;
+    --secondary-color: #23ce6b;
+    --accent-color-1: #ff7e00;
+    --accent-color-2: #a846a0;
+    --neutral-color-1: #f6f8ff;
+    --neutral-color-2: #50514f;
+}
+
+/* Set up the global styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: var(--neutral-color-2);
+    background-color: var(--neutral-color-1);
+    margin: 0;
+    padding: 0;
+}
+
+/* Set up the header */
+.custom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--neutral-color-1);
+    padding: 1em;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav li {
+    margin: 0 1em;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Set up the main content */
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section h2 {
+    color: var(--primary-color);
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+section p {
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 2em;
+}
+
+ul li {
+    margin-bottom: 0.5em;
+}
+
+/* Set up the links */
+a {
+    color: var(--accent-color-1);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.custom-container {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 150px;
+    margin-bottom: 30px;
+}
+
+section .col-md-2 {
+    text-align: center;
+    padding: 10px;
+}
+  
+section .col-md-2 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+  
+section .col-md-2 h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+  
+section .col-md-2 p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.center-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+  
+
+  
