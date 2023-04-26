@@ -1,9 +1,6 @@
 /* Set up the primary and secondary colors for the website */
 :root {
     --primary-color: #006DDA;
-    --secondary-color: #23ce6b;
-    --accent-color-1: #ff7e00;
-    --accent-color-2: #a846a0;
     --neutral-color-1: #f6f8ff;
     --neutral-color-2: #50514f;
 }
@@ -84,16 +81,6 @@ ul li {
     margin-bottom: 0.5em;
 }
 
-/* Set up the links */
-a {
-    color: var(--accent-color-1);
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 .custom-container {
     max-width: 1170px;
     margin-right: auto;
@@ -130,7 +117,4 @@ section .col-md-2 p {
     align-items: center;
     flex-direction: column;
 }
-  
-  
-
   
